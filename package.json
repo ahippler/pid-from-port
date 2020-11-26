@@ -1,35 +1,33 @@
 {
-	"name": "pid-from-port",
-	"version": "1.1.3",
-	"description": "Get PID from a port",
-	"license": "MIT",
-	"repository": "kevva/pid-from-port",
-	"author": {
-		"name": "Kevin Martensson",
-		"email": "kevinmartensson@gmail.com",
-		"url": "github.com/kevva"
-	},
-	"engines": {
-		"node": ">=4"
-	},
-	"scripts": {
-		"test": "xo && ava"
-	},
-	"files": [
-		"index.js"
-	],
-	"keywords": [
-		"get",
-		"pid",
-		"netstat",
-		"port"
-	],
-	"dependencies": {
-		"execa": "^0.9.0"
-	},
-	"devDependencies": {
-		"ava": "*",
-		"get-port": "^3.2.0",
-		"xo": "*"
-	}
+    "name": "pid-from-port",
+    "version": "1.1.3",
+    "description": "Get PID from a port",
+    "keywords": [
+        "get",
+        "pid",
+        "netstat",
+        "port"
+    ],
+    "repository": "kevva/pid-from-port",
+    "license": "MIT",
+    "author": {
+        "name": "Kevin Martensson",
+        "email": "kevinmartensson@gmail.com",
+        "url": "github.com/kevva"
+    },
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "test": "xo && ava"
+    },
+    "devDependencies": {
+        "ava": "^3.13.0",
+        "get-port": "^3.2.0",
+        "prettier": "^2.2.0",
+        "xo": "^0.35.0"
+    },
+    "engines": {
+        "node": ">=8"
+    }
 }
